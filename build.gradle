@@ -1,0 +1,26 @@
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.10.2'
+}
+
+apply plugin: 'java'
+apply plugin: 'checkstyle'
+
+sourceCompatibility = 1.8
+
+group = 'com.github.jlee4-codeprep'
+version = '1.0'
+
+checkstyle {
+    toolVersion '8.14'
+}
+
+checkstyleMain {
+    source ='src/main/java'
+}
+
+checkstyleTest {
+    source ='src/test/java'
+}
+repositories {
+    mavenCentral()
+}
