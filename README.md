@@ -1,9 +1,10 @@
 # Code Prep
 
 Java package to practice coding interview questions.
+Data structures are provided but try not to use Java library structures as they could trivialize some problems.
 Each question is contained in its own separate classes.
 A unit test class is paired with each question and tests expected output.
-A checkstyle test is included with the package and can be run with "./gradlew check" or "gradle check" in the command line with Gradle installed or use an IDE.
+A checkstyle test is included with the package and can be run with "./gradlew check" or "gradle check" in the command line.
 
 Many of the questions in this package are taken and implemented from the books acknowledged below.
 Please support the authors if you find this package useful.
