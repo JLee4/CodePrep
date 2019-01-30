@@ -9,4 +9,8 @@ public class BooleanEvaluation {
     countEval("1^0|0|1", false) -> 2
     countEval("0&0&0&1^1|0", true) -> 10
      */
+    public static int countEval(String expression, boolean result) {
+
+    }
+
 }

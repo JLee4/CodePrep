@@ -1,3 +1,5 @@
+package animal_shelter;
+
 public class AnimalShelter {
     /*
     An animal shelter, which holds only dogs and cats, operates on a strictly "first in, first out" basis. People
@@ -6,4 +8,19 @@ public class AnimalShelter {
     They cannot select which specific animal they would like. Create the data structures to maintain this system and
     implement operations such as enqueue, dequeueAny, dequeueDog, and dequeueCat. You may use the built-in LinkedList.
      */
+    public void enqueue(Animal a) {
+
+    }
+
+    public Animal dequeueAny() {
+
+    }
+
+    public Dog dequeueDog() {
+
+    }
+
+    public Cat dequeueCat() {
+
+    }
 }
